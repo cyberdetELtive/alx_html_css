@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+  }
+  
+  article {
+    flex: 2;
+    overflow-y: auto;
+  }
+  
+  aside {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  /* Customizing colors */
+  body {
+    background-color: #f08282;
+  }
+  
+  h1 {
+    color: #681414;
+  }
+  
+  /* Adding a border */
+  main {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  /* Styling the logo */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Adding a background image */
+  header {
+    background-image: url("https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?w=740&t=st=1689289171~exp=1689289771~hmac=f8b00dd703d5a4d7ea1c19b8d4aec7602664bb9a0b6594304d26a929231a3fd0");
+    background-size: cover;
+    padding: 20px;
+    color: white;
+  }
+  
+  /* Adding some margin and padding */
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  /* Customizing table styles */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Adding a box shadow */
+  article {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+  
+  /* Adding some spacing */
+  p {
+    margin-bottom: 10px;
+  }
+  
+  
